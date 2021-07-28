@@ -33,6 +33,7 @@
 		1AA5EDD326AB06FA003CC2CF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		1AA5EDD626AB06FA003CC2CF /* TemperaturaBody.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TemperaturaBody.xcdatamodel; sourceTree = "<group>"; };
 		1AA5EDD826AB06FA003CC2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ACD33F126B198540034D078 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1AE1672F26B18E0100C131B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1AE1673126B18E5200C131B8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,6 +175,7 @@
 				en,
 				Base,
 				ru,
+				cs,
 			);
 			mainGroup = 1AA5EDBE26AB06F9003CC2CF;
 			productRefGroup = 1AA5EDC826AB06FA003CC2CF /* Products */;
@@ -222,6 +224,7 @@
 			children = (
 				1AE1672F26B18E0100C131B8 /* en */,
 				1AE1673126B18E5200C131B8 /* ru */,
+				1ACD33F126B198540034D078 /* cs */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
