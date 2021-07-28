@@ -13,6 +13,7 @@ class CoreDataViewModel: ObservableObject {
     
     let container: NSPersistentContainer
     
+    
     @Published var savedEntities: [TemperaturaEntity] = []
     @Published var textFieldTemp = ""
     
