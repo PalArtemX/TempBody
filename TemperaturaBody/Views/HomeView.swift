@@ -36,6 +36,7 @@ struct HomeView: View {
             })
             
             
+            
             .navigationTitle(Text("Body Temperature"))
             
             // add a metric
