@@ -67,7 +67,7 @@ struct TextFieldView: View {
                     .foregroundColor(.colorTheme.textGrayColor)
             }
             
-            .navigationTitle("Metric 🌡")
+            .navigationTitle(Text("Metric 🌡"))
             .padding()
         }
     }

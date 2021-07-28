@@ -36,7 +36,7 @@ private let itemFormatter: DateFormatter = {
     let formatter = DateFormatter()
 //    formatter.dateStyle = .short
 //    formatter.timeStyle = .medium
-    formatter.dateFormat = "EEEE, MMM d, yyyy            HH:mm"
+    formatter.dateFormat = "EE, MMM d, yyyy     HH:mm"
     
     return formatter
 }()

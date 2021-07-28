@@ -36,7 +36,7 @@ struct HomeView: View {
             })
             
             
-            .navigationTitle("Body Temperature")
+            .navigationTitle(Text("Body Temperature"))
             
             // add a metric
             .navigationBarItems(trailing: Button(action: {
