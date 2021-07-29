@@ -33,12 +33,14 @@ struct TextFieldView: View {
                     .padding(.horizontal)
                     .font(.largeTitle)
                     .foregroundColor(.colorTheme.textColor)
-                    .keyboardType(.numberPad)
+                    .keyboardType(.decimalPad)
                     .padding()
 
                 Button(action: {
                     withAnimation {
-                        vm.addTempBody(temp: Double(vm.textFieldTemp) ?? 0, date: Date())
+                        // MARK:  String extension, comma changes to a dot
+                        vm.addTempBody(temp: Double(vm.textFieldTemp.doubleValue) , date: Date())
+                        
                     }
                     
                     // To return to the home page after clicking the button

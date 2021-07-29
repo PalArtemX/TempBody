@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A17CB9626B2AF07003171E4 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A17CB9526B2AF07003171E4 /* String.swift */; };
 		1A6CE2DA26AB101B00C0AB70 /* RowTemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE2D926AB101B00C0AB70 /* RowTemperatureView.swift */; };
 		1A6CE2DC26AB102700C0AB70 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE2DB26AB102700C0AB70 /* TextFieldView.swift */; };
 		1A6CE2DE26AB112000C0AB70 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE2DD26AB112000C0AB70 /* Color.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A17CB9526B2AF07003171E4 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		1A6CE2D926AB101B00C0AB70 /* RowTemperatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowTemperatureView.swift; sourceTree = "<group>"; };
 		1A6CE2DB26AB102700C0AB70 /* TextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		1A6CE2DD26AB112000C0AB70 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				1A6CE2DD26AB112000C0AB70 /* Color.swift */,
+				1A17CB9526B2AF07003171E4 /* String.swift */,
 			);
 			name = Extension;
 			path = Model/Extension;
@@ -208,6 +211,7 @@
 				1A6CE2DC26AB102700C0AB70 /* TextFieldView.swift in Sources */,
 				1A6CE2DA26AB101B00C0AB70 /* RowTemperatureView.swift in Sources */,
 				1A84CD2226ACA0B5007ED1F3 /* CoreDataViewModel.swift in Sources */,
+				1A17CB9626B2AF07003171E4 /* String.swift in Sources */,
 				1AA5EDD426AB06FA003CC2CF /* Persistence.swift in Sources */,
 				1AA5EDCD26AB06FA003CC2CF /* HomeView.swift in Sources */,
 				1AA5EDCB26AB06FA003CC2CF /* TemperaturaBodyApp.swift in Sources */,
