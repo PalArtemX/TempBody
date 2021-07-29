@@ -38,7 +38,7 @@ struct TextFieldView: View {
 
                 Button(action: {
                     withAnimation {
-                        // MARK:  String extension, comma changes to a dot
+                        // MARK:  String extension, comma changes to a dot (.doubleValue)
                         vm.addTempBody(temp: Double(vm.textFieldTemp.doubleValue) , date: Date())
                         
                     }
