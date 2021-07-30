@@ -26,3 +26,13 @@ extension String {
         return 0
     }
 }
+
+
+//extension NumberFormatter {
+//    static let shared = NumberFormatter()
+//}
+//extension StringProtocol {
+//    var doubleValue: Double? {
+//        return NumberFormatter.shared.number(from: String(self))?.doubleValue
+//    }
+//}
