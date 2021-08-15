@@ -11,12 +11,6 @@ import CoreData
 struct HomeView: View {
     
     @StateObject var vm = CoreDataViewModel()
-    
-    //@Environment(\.managedObjectContext) private var viewContext
-    
-//    @FetchRequest(entity: TemperaturaEntity.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \TemperaturaEntity.date, ascending: true)])
-//    var temp: FetchedResults<TemperaturaEntity>
-
     @State private var showTextField = false
     
     
@@ -36,10 +30,9 @@ struct HomeView: View {
             })
             
             
-            
             .navigationTitle(Text("Body Temperature"))
             
-            // add a metric
+            // Add a metric
             .navigationBarItems(trailing: Button(action: {
                 showTextField.toggle()
             }, label: {
@@ -62,9 +55,10 @@ struct HomeView: View {
 
 
 
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
-            //.environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }

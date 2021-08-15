@@ -13,7 +13,6 @@ class CoreDataViewModel: ObservableObject {
     
     let container: NSPersistentContainer
     
-    
     @Published var savedEntities: [TemperaturaEntity] = []
     @Published var textFieldTemp = ""
     
@@ -70,5 +69,6 @@ class CoreDataViewModel: ObservableObject {
             print("💾 Error saving data ⚠️ \(error)")
         }
     }
+    
     
 }
