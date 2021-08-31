@@ -15,6 +15,7 @@ class CoreDataViewModel: ObservableObject {
     
     @Published var savedEntities: [TemperaturaEntity] = []
     @Published var textFieldTemp = ""
+    @Published var selectionPicker = 36.6
     
     
     init() {

@@ -13,7 +13,6 @@ struct HomeView: View {
     @StateObject var vm = CoreDataViewModel()
     @State private var showTextField = false
     
-    
     var body: some View {
         NavigationView {
             List {
@@ -24,13 +23,12 @@ struct HomeView: View {
             }
             .listStyle(SidebarListStyle())
             
-            // Transition TextFieldView
+            // Transition TempSelection
             .sheet(isPresented: $showTextField, content: {
-                TextFieldView(vm: vm)
+                TempSelection(vm: vm)
             })
             
-            
-            .navigationTitle(Text("Body Temperature"))
+            .navigationTitle(Text("Body Temp"))
             
             // Add a metric
             .navigationBarItems(trailing: Button(action: {
